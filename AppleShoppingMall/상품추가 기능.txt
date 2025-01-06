@@ -1,0 +1,9 @@
+1. 상품 이름, 가격 작성할 수 있는 페이지와 폼
+  => html파일 만들기, 불러올 Cotroller
+2. 전송버튼 누르면 서버로 보냄
+  => POST method 요청 날리면 서버로 데이터 전송가능 => 폼태그
+3. 서버는 검사 후 이상없으면 DB 저장
+  => Repository.save()로 DB에 저장
+     Controller에서 Item(Entity)형의 객체 생성
+     set
+     Repository.save()
